@@ -1,0 +1,99 @@
+/********** 
+Fonts 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Qahiri', sans-serif;
+**********/
+
+/********** 
+Colors
+
+Blue: #3C5186
+Black: #231F20
+**********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3C5186;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/********** 
+Buttons 
+**********/
+button {
+    background-color: #3C5186;
+    color: #fff;
+    border: 1px solid #3C5186;
+    border-radius: 0;
+    font-size: 1.15rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(60, 81, 134, 0.95);
+    transform: scale(1.05);
+}
+
+/********** 
+Input
+**********/
+input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.15rem;
+}
+
+/********** 
+Content
+**********/
+main {
+    margin: 2rem auto;
+    padding: 3rem 5rem;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 5rem;
+    color: #231F20;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#translatorResult {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: rgb(255 170 170);
+    font-size: 1.5rem;
+}
